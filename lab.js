@@ -179,7 +179,7 @@ let food = {
 
 
 function ingredients(objFood){
-  console.log(objFood)
+ // console.log(objFood)
 
 let {carb, fat, protein} = objFood
 let food2 = [carb, fat, protein] 
@@ -188,7 +188,7 @@ return food2
 
 }
 
-console.log(ingredients(food))
+//console.log(ingredients(food))
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
 // Do not edit the code below.
@@ -209,8 +209,9 @@ var user = {
 */
 
 //Code Here
-
-
+user.name = 'Bryan G. Smith'
+user.email = 'bryansmith@devmounta.in'
+//console.log(user)
 //////////////////////////// PROBLEM 11 ////////////////////////////
 /*
   Using the user object above, delete the users age off of the object.
