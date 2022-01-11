@@ -218,6 +218,8 @@ user.email = 'bryansmith@devmounta.in'
 */
 
 //Code Here
+delete user.name
+//console.log(user)
 
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
