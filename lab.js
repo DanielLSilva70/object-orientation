@@ -19,22 +19,28 @@ console.log(me)
 //name (a string), color (a string), age (a number),
 //and goodBoy/goodGirl (a boolean).
 
-//Code here
+const dog = {
+  name: 'jeff',
+  color: 'brown',
+  age: '2',
+  goodboy: true
+}
+console.log(dog)
 
 
 
 //////////////////////////// PROBLEM 3 ////////////////////////////
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
 
-//Code here
+
+console.log(dog.name)
 
 
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
 
-//Code here
-
+console.log(dog['name'])
 
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
@@ -43,8 +49,15 @@ console.log(me)
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
 
-//Code here
-
+const favoriteThings = {
+  band: 'Queen',
+  food: 'wings',
+  person: 'Maria',
+  book: 'Bible',
+  movie: 'Marvel movies',
+  holiday: 'Christmas'
+}
+console.log(favoriteThings)
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
