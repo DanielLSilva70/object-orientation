@@ -9,7 +9,7 @@ const me = {
   age: '21',
 
 }
-console.log(me)
+//console.log(me)
 
 
 //////////////////////////// PROBLEM 2 ////////////////////////////
@@ -25,7 +25,7 @@ const dog = {
   age: '2',
   goodboy: true
 }
-console.log(dog)
+//console.log(dog)
 
 
 
@@ -33,14 +33,14 @@ console.log(dog)
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
 
 
-console.log(dog.name)
+//console.log(dog.name)
 
 
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
 
-console.log(dog['name'])
+//console.log(dog['name'])
 
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
@@ -57,7 +57,7 @@ const favoriteThings = {
   movie: 'Marvel movies',
   holiday: 'Christmas'
 }
-console.log(favoriteThings)
+
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
@@ -65,7 +65,7 @@ console.log(favoriteThings)
 
 favoriteThings.car = 'mustang'
 favoriteThings.show = 'Dexter'
-console.log(favoriteThings)
+
 
 
 /*
@@ -74,7 +74,7 @@ console.log(favoriteThings)
 */
 
 favoriteThings.food = 'chicken nuggets'
-console.log(favoriteThings)
+
 
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
@@ -92,7 +92,10 @@ var carDetails = {
   Use object destructuring to save the property values from the object carDetails into new variables. 
 */
 
-//Code Here
+let {make: brand} = carDetails
+//console.log(brand)
+
+
 
 
 
@@ -104,14 +107,27 @@ var carDetails = {
   The property names are firstName, lastName, and title.
 */
 
-function greeting( obj ) {
-  //Code Here
+let obj = {
+  title: 'Mr',
+  firstName: 'Daniel',
+  lastName: 'Silva'
+
+};
+
+
+function greeting(personobj) {
+  
+ let {title, firstName, lastName} = personobj
+
+
   
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
+  
 }
 
+//console.log(greeting(obj))
 
 
 //////////////////////////// PROBLEM 8 ////////////////////////////
@@ -125,7 +141,23 @@ function greeting( obj ) {
 */
 
 //Code Here
+let states = {
+  utah: 1,
+  califorina: 2,
+  texas: 3,
+  arizona: 4
+}
 
+
+function totalPopulation(objstates){
+  console.log(objstates)
+
+let {utah, california, texas, arizona} = objstates;
+let total = utah + california + arizona + texas;
+return total
+ 
+}
+totalPopulation(states)
 
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
