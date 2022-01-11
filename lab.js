@@ -63,7 +63,9 @@ console.log(favoriteThings)
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
 */
 
-//Code here
+favoriteThings.car = 'mustang'
+favoriteThings.show = 'Dexter'
+console.log(favoriteThings)
 
 
 /*
@@ -71,7 +73,8 @@ console.log(favoriteThings)
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'. (If they were either of those things already, change them to something else.)
 */
 
-//Code here
+favoriteThings.food = 'chicken nuggets'
+console.log(favoriteThings)
 
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
