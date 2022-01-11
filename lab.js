@@ -150,7 +150,7 @@ let states = {
 
 
 function totalPopulation(objstates){
-  console.log(objstates)
+  //console.log(objstates)
 
 let {utah, california, texas, arizona} = objstates;
 let total = utah + california + arizona + texas;
@@ -170,9 +170,25 @@ totalPopulation(states)
   Push these new variables to an array and return the array. 
 */
 
-//Code Here
+//code here
+let food = {
+  carb: "bread",
+  fat: "pizza",
+  protein: "steak"
+}
 
 
+function ingredients(objFood){
+  console.log(objFood)
+
+let {carb, fat, protein} = objFood
+let food2 = [carb, fat, protein] 
+return food2
+
+
+}
+
+console.log(ingredients(food))
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
 // Do not edit the code below.
