@@ -230,6 +230,20 @@ delete user.name
 */
 
 //Code here
+class Cat{
+  constructor(name, age, color) {
+    this.name = name;
+    this.age = age;
+    this.color = color;
+  }
+       
+    
+}
+
+
+const myCat = new Cat('him', 2, 'black')
+console.log(myCat.name)
+
 
 
 
